@@ -2,45 +2,45 @@
 /* Table                                                                     */
 
 table {
-		tr.tdiv {
-				border-top: 1px solid #ccc;
-		}
+	tr.tdiv {
+		border-top: 1px solid #ccc;
+	}
 
-		.data th {
-				border-bottom: 1px solid #333;
-		}
+	.data th {
+		border-bottom: 1px solid #333;
+	}
 
-		.data th,
-		.data td {
-				padding-left: 20px;
-				text-align: left;
-		}
+	.data th,
+	.data td {
+		padding-left: 20px;
+		text-align: left;
+	}
 
-		.data th:first-child,
-		.data td:first-child {
-				padding-left: 0px;
-		}
+	.data th:first-child,
+	.data td:first-child {
+		padding-left: 0;
+	}
 
-		.watchdog {
-				width: 100%;
-		}
+	.watchdog {
+		width: 100%;
+	}
 
-		.wdtrips tr {
-				border-bottom: 1px solid #ddd;
-				vertical-align: top;
-		}
+	.wdtrips tr {
+		border-bottom: 1px solid #ddd;
+		vertical-align: top;
+	}
 
-		.watchdog tr.header {
-				border-top: 1px solid #333;
-				border-bottom: 1px solid #333;
-		}
+	.watchdog tr.header {
+		border-bottom: 1px solid #333;
+		border-top: 1px solid #333;
+	}
 
-		.watchdog tr.IOP > th,
-		.watchdog tr.IOP > td {
-				color: #ddd;
-		}
+	.watchdog tr.IOP > th,
+	.watchdog tr.IOP > td {
+		color: #ddd;
+	}
 
-		.watchdog th {
-				border-bottom: 0;
-		}
+	.watchdog th {
+		border-bottom: 0;
+	}
 }

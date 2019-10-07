@@ -2,48 +2,48 @@
 /* CALENDAR                                                                  */
 
 .navbar {
-		#calendar,
-		.step-forward,
-		.step-back {
-				@include no-text-select();
-				cursor: pointer;
-				color: $navbar-color;
-		}
+	#calendar,
+	.step-forward,
+	.step-back {
+		@include no-text-select();
+		color: $navbar-color;
+		cursor: pointer;
+	}
 
-		#calendar {
-				position: relative;
-				padding-left: 22px;
-				margin-left: -17px;
-				padding-right: 23px;
-				margin-right: -1px;
-				z-index: 0;
-		}
+	#calendar {
+		margin-left: -17px;
+		margin-right: -1px;
+		padding-left: 22px;
+		padding-right: 23px;
+		position: relative;
+		z-index: 0;
+	}
 
-		.step-forward,
-		.step-back {
-				position: relative;
-				z-index: 1;
-				padding-left: 5px;
-				padding-right: 5px;
-				background-color: transparent;
-				@media (min-width: $container-sm) {
+	.step-forward,
+	.step-back {
+		background-color: transparent;
+		padding-left: 5px;
+		padding-right: 5px;
+		position: relative;
+		z-index: 1;
+		@media (min-width: $container-sm) {
 
-				}
 		}
+	}
 
-		.step-forward {
-				margin-left: -15px;
-		}
+	.step-forward {
+		margin-left: -15px;
+	}
 
-		a.step-forward:hover,
-		a.step-back:hover,
-		#calendar:active,
-		#calendar:hover, {
-				color: $navbar-color-focus;
-				background-color: $navbar-background-color-dark;
-		}
+	a.step-forward:hover,
+	a.step-back:hover,
+	#calendar:active,
+	#calendar:hover, {
+		background-color: $navbar-background-color-dark;
+		color: $navbar-color-focus;
+	}
 
-		.datepicker {
-				margin-left: 0px;
-		}
+	.datepicker {
+		margin-left: 0;
+	}
 }
