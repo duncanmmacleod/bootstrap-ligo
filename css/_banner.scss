@@ -2,15 +2,15 @@
 // page header styles
 
 .banner {
-	padding-bottom: 10px;
+  padding-bottom: 10px;
 
-	h1 {
-		font-size: 36px;
-		margin-left: 10px;
+  h1 {
+    font-size: 36px;
+    margin-left: 10px;
 
-		@media (min-width: 992px) {
-			font-size: 48px;
-			margin-left: 50px;
-		}
-	}
+    @media (min-width: 992px) {
+      font-size: 48px;
+      margin-left: 50px;
+    }
+  }
 }
